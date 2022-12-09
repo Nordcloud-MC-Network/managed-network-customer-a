@@ -8,6 +8,7 @@ module "aws" {
   repository_name        = format("%s-aws", local.repository_name)
   repository_description = "Customer AWS terraform IaC"
 
+  associate_operator_team = true
   operator_team_id = var.operator_team_id
 
   template_repository = local.aws-template

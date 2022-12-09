@@ -8,6 +8,7 @@ module "tooling" {
   repository_name        = format("%s-tooling", local.repository_name)
   repository_description = "Customer tooling terraform IaC"
 
+  associate_operator_team = true
   operator_team_id = var.operator_team_id
 
   template_repository = local.tooling-template
