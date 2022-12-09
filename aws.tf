@@ -1,5 +1,5 @@
 module "aws" {
-  source  = "app.terraform.io/managed-network-${customer_name}/tfc-pipeline/nordcloud"
+  source  = "app.terraform.io/managed-network-customer-a/tfc-pipeline/nordcloud"
   version = "~> 0.0.1"
 
   tfe_organization      = var.organization_id
