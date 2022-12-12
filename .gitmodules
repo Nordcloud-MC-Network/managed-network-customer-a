@@ -1,0 +1,8 @@
+[submodule "repos/aws"]
+	path = repos/aws
+	url = ../managed-network-customer-a-aws
+	branch = main
+[submodule "repos/tooling"]
+	path = repos/tooling
+	url = ../managed-network-customer-a-tooling
+	branch = main
